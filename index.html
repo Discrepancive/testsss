@@ -12,14 +12,28 @@
     #info {
         margin-top: 10px;
     }
+    body {
+        background-color: #312327;
+    }
+    .w3-theme-d1 {color:#fff !important; background-color:#996948 !important
+    }
+    #contact {
+        color: azure;
+    }
+    #top {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
 </style>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <body>
-    <div id="top" class="w3-container w3-brown w3-center">
+    <div id="top" class="w3-container w3-theme-d1 w3-center">
         <img src="images/wood2.jpg" class="w3-circle" alt="wood" style="width:10%">
         
         <p>TEXT</p>
     </div>
+
     <div id="info" class="w3-container w3-center w3-highway-brown">
         <h1>about ass</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis ex tortor, quis faucibus neque rutrum sed. Vivamus sed vulputate metus. Morbi sollicitudin turpis id purus aliquet rutrum. Suspendisse eu risus augue. Nam convallis eros massa, a pulvinar mauris viverra a. In accumsan orci nec nulla pellentesque laoreet. Proin in leo sed purus dictum vestibulum. Donec ac diam ultrices sapien consequat rutrum. Integer interdum est non lacinia laoreet. In lacus ante, auctor et metus sed, sagittis malesuada magna. Aenean ut magna ultricies, placerat velit nec, lacinia sem. Aliquam scelerisque elementum molestie. Suspendisse posuere feugiat gravida. Donec placerat augue sapien, non venenatis lorem tempus sit amet. Mauris id dolor orci. Duis consequat metus non elit placerat, in ornare dui tempor.
@@ -61,10 +75,30 @@
             </div>
             </div>
 
+<a href="https://vk.com/woodenleaves" class="w3-button w3-black w3-block w3-center" style="width: 100%; height: 100px;">Vk</a>
+            
             <div id="dogs" class="w3-modal w3-animate-zoom w3-white" onclick="this.style.display='none'">
-                <img class="w3-modal-content" src="images/woods.jpg">
+                 <img class="w3-modal-content" src="images/woods.jpg">
                 <p>dog</p>
               </div>
+
+              <div id="contact" class="w3-container w3-center w3-padding-32">
+                <h2  class="w3-wide">CONTACT</h2>
+                Adress:<br>
+                Phone: +7 962 455 48<br>
+                Email: mail@mail.com<br>
+                <p class="w3-opacity w3-center"><i>text</i></p>
+                
+                <form action="/action_page.php" target="_blank">
+                <input class="w3-input" type="text" placeholder="Name" required name="Name">
+                <input class="w3-input" type="text" placeholder="Email" required name="Email">
+                <input class="w3-input" type="text" placeholder="Message" required name="Message">
+                <br>
+                <button class="w3-button w3-black" type="submit">SEND</button>
+                </form>
+                
+                <img src="" alt="IMG" class="w3-image" style="width:100%">
+                </div>
 
 </body>
 </html>
